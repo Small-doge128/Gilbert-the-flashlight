@@ -5,8 +5,8 @@ A really nice flashlight, which is small as a box of TIC-TACs with two buttons, 
 A low power E-ink display powered by a 1 200 mAh LiPo battery. The brain is a seed studio xiao esp32-s3. The main things are the powerfull warm LEDs with a resistor.
 
 # dimensions
-the LED pcb-
-the whole flashlight-
+the LED pcb- mm x mm
+the whole flashlight- mm x mm
 
 # why did i create it
 
