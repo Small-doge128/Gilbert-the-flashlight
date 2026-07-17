@@ -6,7 +6,7 @@ A low power E-ink display powered by a 1 200 mAh LiPo battery. The brain is a se
 
 # dimensions
 the LED pcb- 38 mm x 8 mm                                                                                                                                               
-the whole flashlight- 40 mm x 78 mm x mm
+the whole flashlight- 40 mm x 78 mm x 9 mm
 
 # why did i create it
 
