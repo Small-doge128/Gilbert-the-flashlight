@@ -1,5 +1,5 @@
 Name,Purpose,Qty,Price (USD),Distributor,Link,
-Gilbert PCB,Connecting the LEDs + heat dissipation,5,$5.70,JLCPCB,https://jlcpcb.com,
+Gilbert PCB,Connecting the LEDs + heat dissipation,5,$4.20,JLCPCB,https://jlcpcb.com,
 seeed studio xiao esp32-s3,the brain,1,$9.26,Aliexpress,https://www.aliexpress.com/item/1005007341749305.html,
 LiPo battery 1 200mAh,powering the parts,1,$9.55 ,Aliexpress,https://www.aliexpress.com/item/1005007000725960.html,
 mosfet sot-23 3400,mosfet for the LEDs,1,$0.91 ,Aliexpress,https://www.aliexpress.com/item/1005009808441951.html,
