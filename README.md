@@ -19,4 +19,4 @@ I already had a good flashlight, but this is better and It's more like me with a
 
 <img width="766" height="449" alt="2026-07-16-092625_hyprshot" src="https://github.com/user-attachments/assets/f713ce9b-6df6-425e-afa3-1c80e25eedfc" />
 
-<img width="1385" height="823" alt="2026-07-02-170730_hyprshot" src="https://github.com/user-attachments/assets/b8c0a1c6-81a3-4d00-8e7a-e84f2239398c" />
+<img width="1319" height="850" alt="image" src="https://github.com/user-attachments/assets/d8cff0c7-420f-4c7b-97a9-5f99e7944c31" />
