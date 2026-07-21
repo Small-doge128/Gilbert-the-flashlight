@@ -12,7 +12,10 @@ A really nice OLED for informations powered by a 1 200 mAh LiPo battery. The bra
 4 - open your browser and search web.espressif.com 
 5 - select your port where you have the seeed studio connected 
 6 - set the baud rate to **115200**
-7 - 
+7 - load the files you downloaded earlier at these memory ofsets
+ - `bootloader.bin` -> `0x0`
+ - `partitions.bin` -> `0x8000`
+ - `firmware.bin`   -> `0x10000`
 8 - 
 
 # dimensions
