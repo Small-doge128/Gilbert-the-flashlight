@@ -58,7 +58,8 @@ void setup() {
     digitalWrite(mosfetPin, LOW);
     
     //LEDs
-    ledcAttach(mosfetPin, pwmFreq, pwmResolution);
+    ledcSetup(0, pwmFreq, pwmResolution);
+    ledcAttachPin(mosfetPin, 0);
     
     //display
     if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3c)){
@@ -77,8 +78,37 @@ void setup() {
     preferences.begin("led-app", false);
     brightness = preferences.getUChar("bright", 0);
     targetBrightness =  brightness;
-    ledcWrite(mosfetPin, brightness);
+    ledcWrite(0, brightness);
 
+}
+
+    //display
+void drawBrightnessScreen() {
+    
+    uint8_t pct = brightnessPercent(targetBrightness); 
+    uint16_t lumens = calculateLumens(pct);
+    uint8_t batPct = getBatteryPercent();
+
+    display.clearDisplay();
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
+
+    display.setCursor(0, 0);
+    display.print(lumens);
+    display.print(" lm");
+
+    display.setCursor(80, 0);
+    display.print("BAT:");
+    display.print(batPct);
+    display.println("%");
+    
+    display.drawRect(0, 16, 128, 10, SSD1306_WHITE);
+     int fillW = (pct *126) / 100;
+     if (fillW > 0) {
+        display.fillRect(1, 17, fillW, 8, SSD1306_WHITE);
+     }
+    
+     display.display();
 }
 
 
@@ -129,36 +159,6 @@ void loop() {
       if (brightness < targetBrightness) brightness++;
       else if (brightness > targetBrightness) brightness --;
 
-      ledcWrite(mosfetPin, brightness);
+      ledcWrite(0, brightness);
    }
-}
-
-
-    //display
-void drawBrightnessScreen() {
-    
-    uint8_t pct = brightnessPercent(targetBrightness); 
-    uint16_t lumens = calculateLumens(pct);
-    uint8_t batPct = getBatteryPercent();
-
-    display.clearDisplay();
-    display.setTextSize(1);
-    display.setTextColor(SSD1306_WHITE);
-
-    display.setCursor(0, 0);
-    display.print(lumens);
-    display.print(" lm");
-
-    display.setCursor(80, 0);
-    display.print("BAT:");
-    display.print(batPct);
-    display.println("%");
-    
-    display.drawRect(0, 16, 128, 10, SSD1306_WHITE);
-     int fillW = (pct *126) / 100;
-     if (fillW > 0) {
-        display.fillRect(1, 17, fillW, 8, SSD1306_WHITE);
-     }
-    
-     display.display();
 }
