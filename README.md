@@ -1,5 +1,5 @@
 # About
-A really nice flashlight, which is small as a box of TIC-TACs with two buttons, an OLED and a bright LED powered by a battery. It looks like a samsung SSD and It's my first time using and coding a display.
+A really nice flashlight, which is small as a box of TIC-TACs with two buttons, an OLED and a bright LED powered by a battery. It looks like a samsung SSD and It's my first time using and coding a display. [onshape](https://cad.onshape.com/documents/cd0ef959b6cca3fa70459174/w/619a7eb4bf14ab27515c2c02/e/2342898b3dd9987e8f05f571). 
 
 # features
 A really nice OLED for informations powered by a 1 200 mAh LiPo battery. The brain is a seeed studio xiao esp32-s3. The main things are the powerfull warm LEDs with a resistor.
