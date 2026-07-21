@@ -16,7 +16,7 @@ A really nice OLED for informations powered by a 1 200 mAh LiPo battery. The bra
  - `bootloader.bin` -> `0x0`                                                                                                                           
  - `partitions.bin` -> `0x8000`                                                                                                                           
  - `firmware.bin`   -> `0x10000`                                                                                                         
-8 - click **Program** to flash.
+8 - click **Program** to flash now it should work **enjoy**.
 
 # dimensions
 the LED pcb- 38 mm x 8 mm x 1.6 mm                                                                                                                                               
