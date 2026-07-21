@@ -15,7 +15,8 @@ A really nice OLED for informations powered by a 1 200 mAh LiPo battery. The bra
 7 - load the files you downloaded earlier at these memory ofsets.                                                                        
  - `bootloader.bin` -> `0x0`                                                                                                                           
  - `partitions.bin` -> `0x8000`                                                                                                                           
- - `firmware.bin`   -> `0x10000`                                                                                                         
+ - `firmware.bin`   -> `0x10000`
+                                                                                                        
 8 - click **Program** to flash now it should work **enjoy**.
 
 # dimensions
