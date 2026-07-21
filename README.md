@@ -9,14 +9,14 @@ A really nice OLED for informations powered by a 1 200 mAh LiPo battery. The bra
 1 - download the whole file called - gilbert the flashlight .bin files.                                                                                              
 2 - connect your seeed studio via usb-c.                                                                                                                    
 3 - Put it into bootloader mode (hold the **B** button, while holding press the **RST** button and then release).                                                  
-4 - open this link in browser -> [esspresif bootloader](https://esptool.spacehuhn.com) (safari won't work install another browser).
+4 - open this link in browser -> [esspresif bootloader](https://esptool.spacehuhn.com) (safari won't work install another browser).                                                        
 5 - select your port where you have the seeed studio connected.                                                                                  
 6 - set the baud rate to **115200**.                                                                                                                    
 7 - load the files you downloaded earlier at these memory ofsets.                                                                        
  - `bootloader.bin` -> `0x0`                                                                                                                           
  - `partitions.bin` -> `0x8000`                                                                                                                           
  - `firmware.bin`   -> `0x10000`                                                                                                         
-8 - 
+8 - click **Program** to flash.
 
 # dimensions
 the LED pcb- 38 mm x 8 mm x 1.6 mm                                                                                                                                               
