@@ -35,3 +35,15 @@ I already had a good flashlight, but this is better and It's more like me with a
 <img width="901" height="620" alt="Screenshot 2026-07-18 180422" src="https://github.com/user-attachments/assets/fcc42672-fa0d-4f69-a435-ce81764d8d55" />
 
 <img width="1319" height="850" alt="image" src="https://github.com/user-attachments/assets/d8cff0c7-420f-4c7b-97a9-5f99e7944c31" />
+
+| Name | Purpose | Qty | Price (USD) | Distributor | Link |
+| --- | --- | --- | --- | --- | --- |
+| Gilbert PCB | Connecting the LEDs + heat dissipation | 5 | $4.20 | JLCPCB | [Link](https://jlcpcb.com) |
+| seeed studio xiao esp32-s3 | the brain | 1 | $9.26 | AliExpress | [Link](https://www.aliexpress.com/item/1005007341749305.html) |
+| LiPo battery 1 200mAh | powering the parts | 1 | $9.55 | AliExpress | [Link](https://www.aliexpress.com/item/1005007000725960.html) |
+| mosfet sot-23 3400 | mosfet for the LEDs | 1 | $0.91 | AliExpress | [Link](https://www.aliexpress.com/item/1005009808441951.html) |
+| LEDs nichia 519A 3 500k | for the lighting | 2 | $17.86 | AliExpress | [Link](https://www.aliexpress.com/item/1005004368329867.html) |
+| momentary switch | for buttons | 2 | $0.46 | AliExpress | [Link](https://www.aliexpress.com/item/1005003015037539.html) |
+| OLED display | for data of the flashlight | 1 | $2.61 | AliExpress | [Link](https://www.aliexpress.com/item/1005008918700196.html) |
+| **TOTAL** | | | **$44.85** | | |
+| **TOTAL (with tax & shipping)** | | | **$55.00** | | |
